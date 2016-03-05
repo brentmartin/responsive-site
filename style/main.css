@@ -1,4 +1,49 @@
 body {
-  background-color: red; }
+  width: 478px;
+  background-color: #fff; }
+
+.plans {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center; }
+  .plans .plans-item {
+    background-color: #FFFFFF;
+    width: auto;
+    border: solid .5px #EAEAEA;
+    margin: 2em 0 0 0; }
+    .plans .plans-item .plans-item-banner {
+      border: solid .5px #EAEAEA; }
+    .plans .plans-item .plans-item-banner h1 {
+      color: #FFFFFF;
+      margin: 0; }
+    .plans .plans-item .plans-item-banner h2 {
+      color: #FFFFFF;
+      margin: 0; }
+    .plans .plans-item .plans-item-banner h3 {
+      color: #FFFFFF;
+      font-size: 60px;
+      margin: 0; }
+    .plans .plans-item p {
+      background-color: #F7F7F7;
+      border-bottom: solid .5px #EAEAEA;
+      height: 20px;
+      padding: 10px;
+      margin: 0; }
+    .plans .plans-item span {
+      display: block;
+      height: 50px;
+      padding: 20px;
+      background-color: #FFFFFF; }
+    .plans .plans-item span a {
+      background-color: #FFFFFF;
+      display: block;
+      border: solid .5px #EAEAEA;
+      width: 5em;
+      padding: .5em;
+      margin: 5px auto;
+      height: 1em;
+      border-radius: 20px 20px / 20px;
+      text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
