@@ -2,6 +2,16 @@ body {
   width: 478px;
   background-color: #fff; }
 
+.header .header-bar p {
+  display: inline-block;
+  float: left;
+  margin: 5px 0; }
+.header .header-bar ul li {
+  display: inline-block;
+  float: left;
+  clear: right;
+  margin: 5px 0; }
+
 .plans {
   display: block;
   width: 90%;
