@@ -92,7 +92,8 @@ body {
       text-decoration: none; }
 
 .content {
-  display: block; }
+  display: block;
+  margin: 0 auto 0; }
   .content .content-article {
     padding: .5em 2em; }
   .content .content-article h2 {
@@ -153,7 +154,8 @@ Adjustments for 768px - 978px
     align-content: stretch;
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
-    align-items: stretch; }
+    align-items: stretch;
+    max-width: 989px; }
 
   .plans-item:nth-child(1) {
     -webkit-order: 1;
@@ -164,7 +166,8 @@ Adjustments for 768px - 978px
     flex: 0 1 31%;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
-    align-self: auto; }
+    align-self: auto;
+    max-width: 301px; }
 
   .plans-item:nth-child(2) {
     -webkit-order: 2;
@@ -175,7 +178,8 @@ Adjustments for 768px - 978px
     flex: 0 1 31%;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
-    align-self: auto; }
+    align-self: auto;
+    max-width: 301px; }
 
   .plans-item:nth-child(3) {
     -webkit-order: 3;
@@ -186,7 +190,8 @@ Adjustments for 768px - 978px
     flex: 0 1 31%;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
-    align-self: auto; }
+    align-self: auto;
+    max-width: 301px; }
 
   .content {
     display: -ms-flexbox;
@@ -206,7 +211,8 @@ Adjustments for 768px - 978px
     align-content: stretch;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: flex-start; }
+    align-items: flex-start;
+    max-width: 989px; }
 
   .content-article:nth-child(1) {
     -webkit-order: 1;
@@ -217,7 +223,8 @@ Adjustments for 768px - 978px
     flex: 0 1 42%;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
-    align-self: auto; }
+    align-self: auto;
+    max-width: 475px; }
 
   .content-article:nth-child(2) {
     -webkit-order: 2;
@@ -228,7 +235,8 @@ Adjustments for 768px - 978px
     flex: 0 1 42%;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
-    align-self: auto; }
+    align-self: auto;
+    max-width: 475px; }
 
   .content-article:nth-child(3) {
     -webkit-order: 3;
@@ -239,7 +247,8 @@ Adjustments for 768px - 978px
     flex: 0 1 42%;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
-    align-self: auto; }
+    align-self: auto;
+    max-width: 475px; }
 
   .content-article:nth-child(4) {
     -webkit-order: 4;
@@ -250,10 +259,13 @@ Adjustments for 768px - 978px
     flex: 0 1 42%;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
-    align-self: auto; } }
+    align-self: auto;
+    max-width: 475px; } }
 /*
 Adjustments for 979px and over
 =========================================
+*/
+/*  adjustments for 979px and over made by setting max-width's
 */
 
 /*# sourceMappingURL=main.css.map */
