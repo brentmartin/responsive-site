@@ -1,5 +1,4 @@
 body {
-  width: 478px;
   background-color: #fff; }
 
 .header .header-bar p {
@@ -113,5 +112,16 @@ body {
 
 .footer a {
   color: white; }
+
+/*
+Adjustments for Phone Sizes
+=========================================
+*/
+@media (min-width: 479px) {
+  .header .header-banner {
+    height: 400px;
+    padding-top: 150px; }
+  .header .header-banner h1 {
+    font-size: 2.9em; } }
 
 /*# sourceMappingURL=main.css.map */
